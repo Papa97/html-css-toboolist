@@ -5,12 +5,14 @@
 }
 
 body{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(245, 241, 241);
 }
 
 .container{
     width: 80%;
     margin: auto;
+    border-radius: 10px;
+    /* border: 10px solid; */
     
 }
 
@@ -51,6 +53,10 @@ body{
 .pink{
     background-color: rgb(252, 121, 143);
 }
+
+.orange{
+    background-color: orange;
+}
 /* header */
 
 #logo{
@@ -75,8 +81,7 @@ main{
 }
 
 #selection{
-    margin-top: 15px;
-    background-color:;
+    margin-top: 50px;
 }
 
 #bottone-task{
@@ -88,10 +93,12 @@ main{
     border-radius: 5px;
     padding: 5px;
     font-size: 18px;
+    color: rgb(245, 241, 241);
+    border: 1px solid rgb(245, 241, 241);
 }
 
-hr{
-    border-color: rgb(224, 224, 224);
+.linea{
+    border-color: rgb(245, 241, 241);
 }
 
 .riquadro{
@@ -103,11 +110,16 @@ hr{
 
 .spunta{
     border-radius: 50%;
-    padding: 3px;
+    padding: 8px;
 } 
 
 section{
     padding: 10px;
     line-height: 40px;
     margin: 10px;
+}
+
+.arrotondamento{
+    /* border: 10px solid; */
+     border-radius: 5px;
 }
