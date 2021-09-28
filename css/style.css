@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+#logo{
+    margin:15px 15px;
+}
+
+#logo-name{
+    display: inline;
+    vertical-align: 25px;
+    font-size: 45px;
+}
+
+
+.contenitore{
+    width: 80%;
+
+}
