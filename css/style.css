@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: lightgray;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.sfondo-bianco{
+    background-color: white;
+}
+
+.blu{
+    background-color: rgb(47, 132, 243);
+}
+
+.white{
+    background-color: white;
+}
 /* header */
 
 #logo{
@@ -16,8 +37,24 @@
     font-size: 45px;
 }
 
+/* main  */
 
-.contenitore{
-    width: 80%;
+main{
 
+}
+
+#selection{
+    margin-top: 15px;
+    background-color:;
+}
+
+#bottone-task{
+    margin: 5px 0 5px 20px;
+
+}
+
+.bottoni{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
 }
